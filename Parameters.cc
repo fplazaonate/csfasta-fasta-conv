@@ -1,5 +1,5 @@
 /*
- * (C) Copyright 2014 Enterome
+ * (C) Copyright 2014-2015 Enterome
  * 
  * This file is part of csfasta-fasta-conv.
  * 
@@ -30,7 +30,7 @@ Parameters get_parameters(int argc, char* argv[])
 	Parameters pars;
 	
 	// Create options decription
-	po::options_description opts_desc("Convert csfasta file to fasta file and vice versa.");
+	po::options_description opts_desc("Convert csfasta file to fasta file and vice versa");
 		
 
 	opts_desc.add_options()
